@@ -1,0 +1,19 @@
+mappings:
+  prefix: "<dark_gray>[<gradient:aqua:blue>BAdder</gradient>]</dark_gray> "
+  colors:
+    message:
+      failed: "<red>"
+      sucess: "<green>"
+      normal: "<gray>"
+      highlight: "<aqua>"
+
+messages:
+  usage: "<colors.message:failed>Usage: <colors.message:highlight>/badder <reload|zip>"
+  zip:
+    success: "<colors.message:sucess>Resource pack successfully generated and saved to <colors.message:highlight>output/badder-resourcepack.zip!"
+    failed: "<colors.message:failed>Failed to generate resource pack! Check console for details."
+  reload:
+    success: "<colors.message:sucess>BAdder configuration and packs reloaded!"
+    failed: "<colors.message:failed>Failed to reload BAdder! See Console for more Information."
+  permission:
+    check-failed: "<colors.message:failed>No permission! <dark_gray>(<colors.message:normal><permission><dark_gray>)"

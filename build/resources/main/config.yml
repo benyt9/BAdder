@@ -1,0 +1,13 @@
+language: "en"
+
+# Resource Pack Hosting Konfiguration
+hosting:
+  mode: "self" # Optionen: self, external
+  self-host:
+    ip: "0.0.0.0"
+    port: 8163
+    # Die Public-IP oder Domain, unter der der Server erreichbar ist (wichtig für den Client-Download)
+    public-address: "127.0.0.1"
+  external-host:
+    url: ""
+    hash: ""

@@ -1,0 +1,11 @@
+name: BAdder
+description: BAdder Paper-Plugin
+prefix: [ BAdder ]
+version: '1.0.0-ALPHA'
+
+main: b.bplugins.badder.Main
+api-version: '26.1.2'
+load: POSTWORLD
+folia-supported: true
+
+authors: [ EinfachBen ]
